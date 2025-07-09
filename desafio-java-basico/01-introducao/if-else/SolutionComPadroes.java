@@ -25,7 +25,8 @@ public class SolutionComPadroes {
       if (numeroEhPar(n) && intervaloNumerico.equals("intervalo6A20") ||
           !numeroEhPar(n)) {
         System.out.println("Weird");
-        return;
+        return; //Este if pode retirado desde que não tenha mais código para ser executado após este ponto,
+                 //mas é uma boa prática usar o return para deixar claro que não há mais nada a ser executado
       }
   }
 

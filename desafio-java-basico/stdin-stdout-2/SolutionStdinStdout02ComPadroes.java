@@ -4,17 +4,19 @@ import java.util.Scanner;
 // as boas práticas de programação. Neste caso, utilizamos mais uma vez o Princípio da Responsabilidade Única (SRP)
 //criando um método para imprimir os valores lidos do Scanner, além de usar nomes de métodos intuitivos e que descrevem exatamente o que eles fazem,
 //uma prática que é bem comentada no clean code.
-public class SolutionComPadroes {
+public class SolutionStdinStdout02ComPadroes {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);       
-        int a = scan.nextInt();
-        int b = scan.nextInt();
-        int c = scan.nextInt();
+        int i = scan.nextInt();
+        double d = scan.nextDouble();
+        scan.nextLine();
+        String s = scan.nextLine();
         scan.close();
-        imprimirValores(a, b, c);
+        scan.close();
+        imprimirValores(i, d, s);
     }
 
-    private static void imprimirValores(int a, int b, int c) {
+    private static void imprimirValores(int a, double b, String c) {
         System.out.println(a);
         System.out.println(b);
         System.out.println(c);

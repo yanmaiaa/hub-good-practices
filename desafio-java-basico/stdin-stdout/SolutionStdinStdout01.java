@@ -6,7 +6,7 @@ In this challenge, you must read  integers from stdin and then print them to std
 To make the problem a little easier, a portion of the code is provided for you in the editor below.
  */
 
-public class Solution {
+public class SolutionStdinStdout01 {
 
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);       

@@ -14,7 +14,7 @@ import java.util.Scanner;
  * The third line contains a String.
  */
 
-public class Solution {
+public class SolutionStdinStdout02 {
 
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);

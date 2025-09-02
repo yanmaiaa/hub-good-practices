@@ -16,7 +16,7 @@ A single line containing a positive integer, .
  */
 
  //Abaixo está uma solução básica sem usar boas práticas para deixar o código mais legível e manutenível.
-public class Solution {
+public class SolutionIfElse {
 
     private static final Scanner scanner = new Scanner(System.in);
 
